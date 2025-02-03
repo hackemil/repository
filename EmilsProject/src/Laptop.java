@@ -1,0 +1,6 @@
+
+class Laptop extends ElectronicDevice {
+
+	
+   
+}
