@@ -1,5 +1,11 @@
 package Classwork;
 
-public class nasledovanieglavnoe {
- 
+public abstract  class nasledovanieglavnoe {
+	 public abstract void startCar();
+
+	
+	
+	
+	
+	
 }

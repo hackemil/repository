@@ -1,6 +1,5 @@
 package Classwork;
 
-import javax.swing.plaf.multi.MultiInternalFrameUI;
 
 public class inkapsulacia {
 	private String name;
