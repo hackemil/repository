@@ -1,5 +1,5 @@
 package Classwork;
 
-public class nasledovanie {
+public class nasledovanie extends nasledovanieglavnoe{
 
 }
