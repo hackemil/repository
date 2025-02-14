@@ -2,10 +2,10 @@ package I27;
 
 public class Main1 {
 public static void main(String[] args) {
-	Payment CreditCard = new CreditCardPayment();
+	CreditCardPayment CreditCard = new CreditCardPayment();
 	CreditCard.pay(2.20);
 	
-	Payment paypal = new PayPalPayment();
+	PayPalPayment paypal = new PayPalPayment();
 	paypal.pay(4.50);
 }
 }
