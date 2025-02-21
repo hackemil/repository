@@ -1,12 +1,13 @@
 package I29;
 
+import java.util.Iterator;
 
 public class Main {
 public static void main(String[] args) {
-	Guitar guitar = new Guitar();
-	Piano piano = new Piano();
-	
-	guitar.playsound();
-	piano.playsound();
+	Instrument[] instruments = {new Guitar(),new Piano()};
+	for (Instrument instrument : instruments) {
+		instrument.playsound();
+		
+	}
 }
 }

@@ -1,8 +1,8 @@
 package I29;
 
 public abstract class BankAccount {
-	int accountNumber;
-	int balance;
+	private int accountNumber;
+	private int balance;
  
  
 	abstract void deposit(double amount);
