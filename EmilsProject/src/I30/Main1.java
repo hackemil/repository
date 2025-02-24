@@ -6,10 +6,9 @@ class Main1 {
 		   GoodbyeMessage goodbye = new GoodbyeMessage();
 		   WelcomeMessage welcome = new WelcomeMessage();
 
-		   System.out.println(hello);
-		   System.out.println(goodbye);
-		   System.out.println(welcome);
-
+		hello.getText();
+		goodbye.getText();
+		welcome.getText();
 	     
 	    }
 	}
